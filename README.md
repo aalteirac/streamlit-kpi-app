@@ -28,7 +28,7 @@ streamlit_kpi(key="first_kpi",height='200',title='Monthly Sales',value=25000,ico
     title: Mandatory str, the title...
     value: Mandatory str or int or float, the value...
     icon: Optional str, default is 'fa-solid fa-globe', any Font Awesome class (v6.3). See https://fontawesome.com/search?o=r&m=free
-    icon: Optional str, default is '', the value unit appended after the value
+    unit: Optional str, default is '', the value unit appended after the value
     textAlign: Optional str, default is 'left', title and value alignement
     backgroundColor: Optional str, default is '#f3f3f3', widget background color can be str like blue, orange, transparent... or HEX color
     titleColor: Optional str, default is 'dark', title font color, can be str like blue, orange... or HEX color
