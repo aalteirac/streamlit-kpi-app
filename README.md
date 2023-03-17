@@ -1,3 +1,7 @@
+## Test it Live !
+Streamlit component for displaying KPIs
+<a href="https://aalteirac-kpi.streamlit.app/" title="3d-badge"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
+
 # streamlit-kpi
 
 Streamlit component for displaying KPIs
