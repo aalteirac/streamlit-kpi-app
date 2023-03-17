@@ -1,8 +1,9 @@
 import streamlit as st
-import streamlit_kpi as sk
+from streamlit_kpi import streamlit_kpi
 
 
 st.set_page_config(layout="wide")
+
 with st.expander('Settings'):
     col1,col2,col3,col4,col5=st.columns(5)
     with col1:
@@ -39,34 +40,34 @@ if title =='':
 
 col1,col2,col3,col4=st.columns(4)
 with col1:
-    sk.streamlit_kpi(key="zero",height=height,title=title,value=nb+0.5678,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
+    streamlit_kpi(key="zero",height=height,title=title,value=nb+0.5678,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
                     showProgress=showProg,iconTop=iconTop,showIcon=showIcon,
                     iconLeft=iconLeft,iconOpacity=iconOpacity,iconColor=iconColor,
                     backgroundColor=backgroundColor,titleColor=titleColor,valueColor=valueColor,
                     progressColor=progressColor,textAlign=textAlign
                     )
 with col2:
-    sk.streamlit_kpi(key="one",height=height,title=title,value=nb,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
+    streamlit_kpi(key="one",height=height,title=title,value=nb,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
                 showProgress=showProg,iconTop=iconTop,showIcon=showIcon,
                 iconLeft=iconLeft,iconOpacity=iconOpacity,iconColor=iconColor,
                 backgroundColor=backgroundColor,titleColor=titleColor,valueColor=valueColor,
                 progressColor=progressColor,textAlign=textAlign
                 )
 with col3:
-    sk.streamlit_kpi(key="zerob",height=height,title=title,value=nb+0.5678,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
+    streamlit_kpi(key="zerob",height=height,title=title,value=nb+0.5678,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
                     showProgress=showProg,iconTop=iconTop,showIcon=showIcon,
                     iconLeft=iconLeft,iconOpacity=iconOpacity,iconColor=iconColor,
                     backgroundColor=backgroundColor,titleColor=titleColor,valueColor=valueColor,
                     progressColor=progressColor,textAlign=textAlign
                     )
 with col4:
-    sk.streamlit_kpi(key="oneb",height=height,title=title,value=nb,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
+    streamlit_kpi(key="oneb",height=height,title=title,value=nb,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
                 showProgress=showProg,iconTop=iconTop,showIcon=showIcon,
                 iconLeft=iconLeft,iconOpacity=iconOpacity,iconColor=iconColor,
                 backgroundColor=backgroundColor,titleColor=titleColor,valueColor=valueColor,
                 progressColor=progressColor,textAlign=textAlign
                 )     
-sk.streamlit_kpi(key="three",height=height*3,title=title,value=valueText,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
+streamlit_kpi(key="three",height=height*2,title=title,value=valueText,icon=iconType,progressValue=progress,unit=unit,animate=animate,animateDuration=animationDur,
                 showProgress=showProg,iconTop=iconTop,showIcon=showIcon,
                 iconLeft=iconLeft,iconOpacity=iconOpacity,iconColor=iconColor,
                 backgroundColor=backgroundColor,titleColor=titleColor,valueColor=valueColor,
