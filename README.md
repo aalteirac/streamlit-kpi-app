@@ -1,11 +1,11 @@
-![ScreenShot](https://raw.githubusercontent.com/aalteirac/streamlit-kpi-app/master/screen.png)
-
 ## Test it Live !
 <a href="https://aalteirac-kpi.streamlit.app/" title="3d-badge"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
 
 # streamlit-kpi
 
-Streamlit component for displaying KPIs
+Streamlit component for displaying KPIs, easy layout to fit all your needs !
+
+![ScreenShot](https://raw.githubusercontent.com/aalteirac/streamlit-kpi-app/master/screen.png)
 
 ## Installation instructions 
 
