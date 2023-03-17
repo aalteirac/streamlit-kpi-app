@@ -1,4 +1,4 @@
-[![ScreenShot](https://raw.githubusercontent.com/aalteirac/composite/master/thumb.png)]
+![ScreenShot](https://raw.githubusercontent.com/aalteirac/composite/master/thumb.png)
 
 ## Test it Live !
 <a href="https://aalteirac-kpi.streamlit.app/" title="3d-badge"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
