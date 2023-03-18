@@ -23,8 +23,8 @@ with st.expander('Settings'):
         textAlign=st.selectbox('General Text Align)',['left','center','right'],key='alig')
     with col4:
         showIcon=st.checkbox('Show Icon',True)
-        iconTop=st.slider('Icon Top Position',0,100,35)    
-        iconLeft=st.slider('Icon Left Position',0,100,79) 
+        iconTop=st.slider('Icon Top Position',0,100,24)    
+        iconLeft=st.slider('Icon Left Position',0,100,91) 
         iconType=st.selectbox('Icon Samples (all font awesome)',['fa-regular fa-thumbs-up','fa-regular fa-thumbs-down','fa-solid fa-thumbs-up','fa-solid fa-thumbs-down','fa-ethernet','fa-mobile','fa-globe', 'fa-network-wired','fa-server','fa-ethernet','fa-satellite-dish','fa-wifi','fa-money-bill'],key='ico')
     with col5:
         iconOpacity=st.slider('Icon Opacity',0,100,40)  
